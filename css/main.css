@@ -1,0 +1,231 @@
+:root{
+    --font-family-h: 'Staatliches', cursive;
+    --font-family: 'Roboto Mono', monospace;
+    --color-six: #b74e91;
+    --color-one: #b74181;
+    --color-five: #5e42a6;
+    --color-two:#390050;
+    --color-three:#432C46;
+    --color-four:#1D1D1D;
+    --border-button-color: rgb(168,152,207);
+    --primary-font-color: rgb(247,245,248);
+    --secondary-font-color: rgb(203, 194, 221);
+
+    --gradient-moz: -moz-linear-gradient(to right, #300050, #C46ED0);
+    --gradient-webkit: -webkit-linear-gradient(to right, #300050, #C46ED0);
+    --gradient-ms: -ms-linear-gradient(to right,  #300050, #C46ED0);
+    --gradient-line: linear-gradient(to right,  #300050, #C46ED0);
+}
+/* general */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 62.5%;
+    font-family: var(--font-family);
+    scroll-behavior: smooth;
+    background-color: var(--secondary-font-color);
+}
+.wrapper{
+    max-width: 1000px;
+    margin: auto;
+}
+button{
+    border: 1px solid var(--border-button-color);
+    border-radius: 20px;
+    width: 100%;
+    height: 4.2rem;
+    font-size: 1.4rem;
+    font-weight: 700;
+    letter-spacing: 0.2rem;
+}
+button:hover{
+    box-shadow: 3px 3px 3px 0px #390050;
+    background-color: #6f59a7;
+}
+button:focus{
+    box-shadow: 3px 3px 3px 0px #390050;
+    outline: none;
+    border: 2px solid var(--border-button-color);
+    font-size: 1.5rem;
+}
+.icon{
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    border: none;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+/* main */
+.home-hero{
+    width: 100%;
+    min-width: 320px;
+    height: 340px;
+    padding: 70px 30px 20px 30px;
+    text-align: left;
+    background-color: var(--color-two);
+}
+.home-hero h1{
+    font-size: 2.8rem;
+    font-family: var(--font-family-h);
+    letter-spacing: 0.2rem;
+    color: var(--primary-font-color);
+}
+.home-hero p{
+    margin-top: 30px;
+    font-size: 1.4em;
+    font-weight: bold;
+    line-height: 2.5rem;
+    text-align: left;
+    color: var(--secondary-font-color);
+}
+.home-content{
+    border-bottom: 1px solid transparent;
+    border-image: linear-gradient(to right, rgb(247,245,248),  #300050, #C46ED0) 1;
+    width: 100%;
+    min-width: 320px;
+    background-color: var(--color-five);
+}
+.home-content picture{
+    width: 100%;
+    min-width: 320px;
+    height: 50vh;
+}
+.home-content picture img{
+    width: 100%;
+    height: 100%;
+}
+.home-content--info{
+    width: 100%;
+    height: auto;
+    padding: 40px 30px 20px 30px;
+}
+.home-content--info h2{
+    font-family: var(--font-family-h);
+    font-size: 2rem;
+    line-height: 2rem;
+    letter-spacing: 0.1rem;
+    color: var(--primary-font-color);
+}
+.home-content--info .home-content--paragraph{
+    padding-top: 20px;
+    padding-bottom: 30px;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 1.8rem;
+    color: var(--secondary-font-color);
+}
+.home-content--info button{
+    color: var(--secondary-font-color);
+    background-color: var(--color-five);
+}
+.home-content--info button:hover{
+    box-shadow: 3px 3px 3px 0px #390050;
+    background-color: #654aad;
+}
+.home-content--info button:focus{
+    background-color: #654aad;
+}
+.learned{
+    width: 100%;
+    padding: 40px 30px 20px 30px;
+    min-width: 320x;
+    background-color: var(--color-six);
+}
+.learned .github{
+    background-image: url('../assets/images/icon/github-white.jpg');
+}
+.learned .html_css{
+    background-image: url('../assets/images/icon/css3-white.png');
+}
+.learned h2{
+    font-family: var(--font-family-h);
+    font-size: 2rem;
+    letter-spacing: 0.1rem;
+    color: var(--primary-font-color);
+}
+.learned p{
+    padding-top: 20px;
+    padding-bottom: 30px;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 1.8rem;
+    color: var(--secondary-font-color);
+}
+.learned button{
+    margin-top: 20px;
+    color: var(--secondary-font-color);
+    background-color: var(--color-six);
+}
+.learned button:hover{
+    box-shadow: 3px 3px 3px 0px #390050;
+    background-color: var(--color-one);
+}
+.learned button:focus{
+    background-color: var(--color-one);
+}
+.learned-card{
+    border: thin solid var(--border-button-color);
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 5px;
+    width: 100%;
+    background-color: var(--color-one);
+}
+.learned-card--content{
+    
+}
+.learned-card--content h3{
+    margin-top: 5px;
+    font-family: var(--font-family-h);
+    font-size: 1.6rem;
+    letter-spacing: 0.1rem;
+}
+.learned-card--content h3 a{
+    text-decoration: none;
+    color: var(--primary-font-color);
+}
+.learned-card--content h3 a:hover,
+.learned-card--content h3 a:active,
+.learned-card--content h3 a:visited{
+    text-decoration: none;
+    color: var(--primary-font-color);
+}
+.learned-card--content-img{
+    margin-top: 5px;
+    width: 100%;
+}
+.learned-card--content-img img{
+    width: 100%;
+}
+footer{
+    display: flex;
+    height: 100px;
+    padding: 0 40px;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--primary-font-color);
+    background-color: var(--color-two);
+}
+footer .footer-left p{
+    font-family: var(--font-family-h);
+    font-size: 2rem;
+    letter-spacing: 0.1rem;
+
+}
+footer .footer-right .twitter{
+    background-image: url('../assets/images/icon/twitter-white.jpg');
+}
+footer .footer-right .instagram{
+    background-image: url('../assets/images/icon/instagram-white.jpg');
+}
+footer .footer-right .github{
+    background-image: url('../assets/images/icon/github-white.jpg');
+}
+footer .footer-right .linkedin{
+    background-image: url('../assets/images/icon/linkedin-white.jpg');
+}

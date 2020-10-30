@@ -3,67 +3,159 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HV</title>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/tablet.css" media="(min-width: 768px)">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;300;400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+    <title>LAHC</title>
 </head>
 <body>
-    <header>
-        <h1>Desarrolladora web / Desarrolladora JavaScript</h1>
-        <h2>Luz Alejandra Hincapie Cortes</h2>
-    </header>
-        <!-- main -->
-    <main>
-        <section class="column-left">
-            <div>
-                <h3>Contaco</h3>
-                <h5>Ubicación</h5>
-                <p>Bogotá - Colombia</p>
-                <h5>E-mail</h5>
-                <p>alejandra.hincapie@outlook.com</p>
-                <h5>sitio web</h5>
-                <p>lahincapie.github.io</p>
-            </div>
-            <div>
-                <h3>Tecnologias</h3>
-                <ul>
-                    <li>html 5</li>
-                    <li>css</li>
-                    <li>javascript</li>
-                    <li>python</li>
-                    <li>sql</li>
-                    <li>mysql</li>
-                    <li>git y github</li>
-                </ul>
-            </div>
-            <div>
-                <h3>Cursos</h3>
-                <p>escuela de desarrollo web</p>
-                <p>escuela de javascript</p>
-                <p>escuela de data science</p>
-                <p>gestión de proyectos</p>
-            </div>
-        </section>
-        <section class="column-right">
-            <div>
-                <h3>Objetivos</h3>
+    <div class="wrapper">
+        <main>
+            <!-- hero -->
+            <section class="home-hero">
+                <h1>Alejandra Hincapie</h1>
                 <p>
-                    Estudiante de Ingeniería de sistemas, sexto semestre (aplazado), conconocimiento en manejo de herramientas ofimáticas, programación en JAVA, C++, HTML, conocimiento en hardware y software, sistemas operativos, mantenimiento correctivo y preventivo de computadores; con experiencia el manejo de personal, verificación de fallas técnicas. Me caracterizó por ser una persona responsable, con gusto por el trabajo en equipo, proactiva, con facilidad de adaptación y abierta al aprendizaje continuo, ejerciendo las labores de forma organizada y metódica, con habilidades numéricas en la solución de problema.
+                    Hola, bienvend@!! Aquí encontraras algunas cosas sobre mi vida como programadora, espero me acompañes en este constante crecimiento.
+                </p>
+                <!-- <button class="btn" scr="#perfil">Acompañame</button> -->
+            </section>
+
+            <!-- perfil -->
+            <section class="home-content about" id="profile">
+                <picture>
+                    <img
+                        src="./assets/images/img/escritorio_home.jpg"
+                        alt="imagen de escritorio"
+                    />
+                </picture>
+                <div class="home-content--info">
+                    <h2>Algo sobre mi</h2>
+                    <p class="home-content--paragraph">
+                        Aquí encontraras algunos datos sobre mi.
+                    </p>
+                    <button class="btn" scr="#">
+                        Acompañame
+                    </button>
+                </div>
+            </section>
+
+            <!-- portafolio -->
+            <section class="home-content portfolio" id="what-i-do">
+                <picture>
+                    <img
+                        src="./assets/images/img/home-office-desk.jpg"
+                        alt="MDN"
+                    />
+                </picture>
+                <div class="home-content--info">
+                    <h2>Lo que hago</h2>
+                    <p class="home-content--paragraph">
+                        Aquí encontraras algunos proyectos que he realizado en mi proceso
+                        de aprendizaje
+                    </p>
+                    <button class="btn" scr="#">
+                        Acompañame
+                    </button>
+                </div>
+            </section>
+
+            <!-- blog -->
+            <section class="home-content blog" id="blogger">
+                <picture>
+                    <img
+                        src="./assets/images/img/blog.jpg"
+                        alt="MDN"
+                    />
+                </picture>
+                <div class="home-content--info">
+                    <h2>Blog</h2>
+                    <p class="home-content--paragraph">
+                        Aquí encontraras algunos proyectos que he realizado en mi proceso de aprendizaje
+                    </p>
+                    <button class="btn" scr="#">
+                        Acompañame
+                    </button>
+                </div>
+            </section>
+
+            <!-- certificados -->
+            <section class="learned">
+                <div class="learned-info">
+                    <h2>¿Qué he aprendido?</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing
+                        elit. Quibusdam, nemo nisi! Repellendus, quam minima
+                        voluptatum et quaerat omnis, quod natus placeat
+                        exercitationem vero dolore praesentium fuga ullam
+                        facilis alias tenetur.
+                    </p>
+                </div>
+                <div class="learned-wrapper">
+                    <section class="learned-card">
+                        <article class="learned-card--content">
+                            <span class="icon github"></span>
+                            <h3>
+                                <a href="https://platzi.com/clases/git-github/">
+                                    git y github
+                                </a>
+                            </h3>
+                            <div class="learned-card--content-img">
+                                <img
+                                    src="./assets/images/certi/git_github.png"
+                                    alt=""
+                                />
+                            </div>
+                        </article>
+                    </section>
+                    <section class="learned-card">
+                        <article class="learned-card--content">
+                            <span class="icon html_css"></span>
+                            <h3>
+                                <a href="https://platzi.com/clases/git-github/">
+                                    HTML y CSS
+                                </a>
+                            </h3>
+                            <div class="learned-card--content-img">
+                                <img
+                                    src="./assets/images/certi/html_css.png"
+                                    alt=""
+                                />
+                            </div>
+                        </article>
+                    </section>
+                </div>
+                <button class="btn" scr="#">
+                    Aqui algo más
+                </button>
+            </section>
+        </main>
+        <footer>
+            <div class="footer-left">
+                <p>
+                    Alejandra <br>
+                    Hincapie
                 </p>
             </div>
-            <div>
-                experiencia
+            <div class="footer-right">
+                <a href="">
+                    <span class="icon twitter"></span>
+                </a>
+                <a href="">
+                    <span class="icon github"></span>
+                </a>
+                <br>
+                <a href="">
+                    <span class="icon linkedin"></span>
+                </a>
+                <a href="">
+                    <span class="icon instagram"></span>
+                </a>
             </div>
-            <div>
-                educacion
-            </div>
-            <div>
-                hobbies
-            </div>
-        </section>
-    </main>
-    <footer>
-        <div>
-            redes
-        </div>
-    </footer>
+        </footer>
+    </div>
 </body>
 </html>

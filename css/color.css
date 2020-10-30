@@ -1,0 +1,76 @@
+:root{
+color-3: rgb(183, 78, 145);
+color-2: rgb(255, 170, 204);
+color-5: rgb(94, 66, 166);
+color-11: rgb(87, 127, 188);
+color-6: rgb(66, 103, 178);
+color-8: rgb(64, 128, 255);
+color-9: rgb(54, 88, 153);
+color-4: rgb(49, 36, 80);
+color-10: rgba(0,30,84,0.3);
+color-14: rgb(222, 224, 227);
+color-15: rgb(204, 208, 213);
+color-17: rgb(102, 102, 102);
+color-7: rgb(103, 109, 121);
+color-12: rgb(84, 91, 97);
+color-13: rgb(61, 68, 73);
+color-18: rgb(88, 92, 99);
+color-20: rgb(85, 85, 85);
+color-23: rgba(0,0,0,0.35);
+color-21: rgb(76, 69, 77);
+color-16: rgba(255,255,255,0.55);
+color-19: rgba(255,255,255,0.35);
+color-22: rgba(255,255,255,0.05);
+}
+
+
+
+rgba(255, 255, 255, 0.55);
+rgba(255, 255, 255, 0.35);
+rgba(255, 255, 255, 0.15);
+rgba(255, 255, 255, 0.05);
+
+rgb(50, 36, 81);
+rgba(49, 36, 80, 0.9);
+rgba(0, 0, 0, 0.05);
+rgba(0, 0, 0, 0.1);
+
+#261c3e;
+#5e42a6;
+#493382;
+#3e4094;
+#5052b5;
+#312450;
+#3c2c62;
+#b74e91;
+#953d75;
+
+-moz-linear-gradient(to right, #5e42a6, #b74e91);
+-webkit-linear-gradient(to right, #5e42a6, #b74e91);
+-ms-linear-gradient(to right, #5e42a6, #b74e91);
+linear-gradient(to right, #5e42a6, #b74e91);
+:root{
+    --font-family-h: 'Staatliches', cursive;
+    --font-family: 'Roboto Mono', monospace;
+    --color-blue-one: rgb(62, 64, 148);
+    --color-blue-two: rgb(80, 82, 181);
+    --color-purple-one: rgb(94, 66, 166);
+    --color-purple-two: rgb(73, 51, 130);
+    --color-purple-three: rgb(49, 36, 80);
+    --color-purple-three-opc: rgba(49, 36, 80, 0.9);
+    --color-purple-four: rgb(60, 44, 98);
+    --color-purple-six: rgb(50, 36, 81);
+    --color-purple-five: rgb(38, 28, 62);
+    --color-pink-one: rgb(183, 78, 145);
+    --color-pink-two: rgb(149, 61, 117);
+
+    --primary-font: rgb(247,245,248);
+    --secondary-font: rgb(203, 194, 221);
+    --tertiary-font: rgb(109,99,129);
+    --border-button-color: rgb(168,152,207);
+
+    --gradient-moz: -moz-linear-gradient(to right, #5e42a6, #b74e91);
+    --gradient-webkit: -webkit-linear-gradient(to right, #5e42a6, #b74e91);
+    --gradient-ms: -ms-linear-gradient(to right, #5e42a6, #b74e91);
+    --gradient-line: linear-gradient(to right, #5e42a6, #b74e91);
+}

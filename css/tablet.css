@@ -1,0 +1,60 @@
+button{
+    width: 30%;
+    padding: 10px;
+    min-width: max-content;
+    font-size: 1.8rem;
+}
+.icon{
+    width: 40px;
+    height: 40px;
+}
+.home-hero{
+    padding: 80px 50px 20px 50px;
+}
+.home-hero h1{
+    font-size: 3.8rem;
+}
+.home-hero p{
+    font-size: 1.8em;
+}
+.home-content{
+    display: flex;
+}
+.home-content picture{
+    width: 30%;
+    height: inherit;
+}
+.home-content--info,
+.learned{
+    padding: 60px 50px 20px 50px;
+}
+.home-content--info h2,
+.learned h2{
+    font-size: 2.8rem;
+}
+.home-content--info .home-content--paragraph,
+.learned p{
+    font-size: 1.8rem;
+    line-height: 3rem;
+}
+.learned{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.learned-wrapper{
+    display: flex;
+    gap: 5px;
+}
+.learned-card--content h3{
+    font-size: 2rem;
+}
+footer .footer-left p{
+    font-size: 2.8rem;
+    letter-spacing: 0.2rem;
+}
+footer .footer-left br,
+footer .footer-right br{
+    display: none;
+}
+
