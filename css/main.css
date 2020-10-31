@@ -28,10 +28,10 @@ html {
     scroll-behavior: smooth;
     background-color: var(--secondary-font-color);
 }
-.wrapper{
-    max-width: 1000px;
+/* .wrapper{
+    max-width: 1100px;
     margin: auto;
-}
+} */
 button{
     border: 1px solid var(--border-button-color);
     border-radius: 20px;
@@ -59,6 +59,10 @@ button:focus{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+}
+/* header */
+.header-container{
+    display: none;
 }
 /* main */
 .home-hero{
